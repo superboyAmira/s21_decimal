@@ -101,7 +101,6 @@ typedef struct
 | Subtraction | - | int s21_sub(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) |
 | Multiplication | * | int s21_mul(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) | 
 | Division | / | int s21_div(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) |
-| Modulo | Mod | int s21_mod(s21_decimal value_1, s21_decimal value_2, s21_decimal *result) |
 
 The functions return the error code:
 - 0 - OK
@@ -183,4 +182,4 @@ The functions of the decimal.h library described [above](#information) must be i
 - Trailing zeros can be as preserved as deleted (except for the `s21_truncate` function)
 - The defined type must support numbers from -79,228,162,514,264,337,593,543,950,335 to +79,228,162,514,264,337,593,543,950,335.
 
-💡[ Tap here](https://forms.yandex.ru/u/6357d97684227c2f9d626b7c/) **to leave your feedback on the project**. Pedago Team really tries to make your educational experience better.
+💡[ Tap here](https://forms.yandex.ru/cloud/641813ff73cee70b89478991/) **to leave your feedback on the project**. Pedago Team really tries to make your educational experience better.
